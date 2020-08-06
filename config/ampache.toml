@@ -1,0 +1,10 @@
+[template]
+src = "ampache.cfg.php.tmpl"
+dest = "/var/www/html/config/ampache.cfg.php"
+keys = [
+  "database.host",
+  "database.port",
+  "database.name",
+  "database.username",
+  "database.password",
+]
